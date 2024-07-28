@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logoimage {
+  height: 100px;
+  width: auto;
+}
+
+.middle {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-right: 150px;
+  margin-left: 120px;
+}
+
+.rightbar {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+
+  margin-right: 80px;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-button:hover {
+  background-color: transparent;
+}
+
+.header {
+  position: absolute;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+  color: white;
+}
+
+.header .navbar img {
+  width: 250px;
+  height: auto;
+}
+
+@media screen and (max-width: 940px) {
+  .header {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .header .navbar img {
+    width: 150px;
+  }
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+}

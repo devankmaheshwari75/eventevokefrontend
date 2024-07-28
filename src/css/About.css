@@ -1,0 +1,86 @@
+.Main_Heading_About_Us{
+  background-image: url("../assets/About.jpg");
+  /* Placeholder image, replace with your actual image URL */
+  background-size: cover;
+  /* Cover the entire container */
+  background-position: center;
+  /* To center the image */
+  background-attachment: fixed;
+  /* Make the background image fixed to cover the entire viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*Set the height of the container to full viewport height */
+}
+
+.Main_Heading_About_Us h1{
+   color:white;
+   font-size: 540%;
+}
+
+.about {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .about__intro-heading {
+    text-align: left;
+    
+  }
+  
+  .about__intro-main-heading {
+    text-align: left;
+  }
+  
+  .about__intro-line {
+    width: 50px;
+    border: 1px solid #ccc;
+    margin-left: 0;
+  }
+  
+  .about__content {
+    margin-top: 20px;
+  }
+  
+  .about__section h2 {
+    font-size: 24px;
+  }
+  
+  .about__team h3 {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  
+  .about__team hr {
+    width: 100px;
+    border: 1px solid #ccc;
+  }
+  
+  .about__team-members {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    flex: 0 0 calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .team-member h4 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .team-member p {
+    margin: 5px 0;
+  }
+  

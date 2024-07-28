@@ -1,0 +1,54 @@
+.Main_Heading_Wedding_Planning{
+  background-image: url("../../assets/Wedding_Planning.jpg");
+  background-size: cover;
+  background-position: center;
+  /* To center the image */
+  background-attachment: fixed;
+  /* Make the background image fixed to cover the entire viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Main_Heading_Wedding_Planning h1{
+  color: white;
+  font-size: 540%;
+}
+
+.event-section {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-top: 20px;
+  margin-left: 100px;
+  max-width: 80%;  /* Adjust the width as needed */
+  margin: 0 auto;  /* This centers the content */
+  padding: 20px;
+  /* background-color: yellow; */
+  
+}
+
+.event-section h1 {
+  font-size: 24px;  /* Adjust the size as needed */
+}
+
+.event-section p {
+  font-size: 16px;  /* Adjust the size as needed */
+  line-height: 1.6;  /* Adjust line-height for better readability */
+  margin: 10px 0;  /* Give some space between the paragraphs */
+}
+
+.event-section .read-more {
+  font-weight: bold;
+  color: #4E7FB1;
+  text-decoration: none;
+}
+
+/* Hover effect for the link */
+.event-section .read-more:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 50px; /* Adjust the value as needed */
+}

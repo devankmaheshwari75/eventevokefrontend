@@ -1,0 +1,126 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.Main_Heading_Contact_Us {
+    background-image: url("../assets/Services3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Main_Heading_Contact_Us h1 {
+    color: white;
+    font-size: 540%;
+}
+
+.contact {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.contact__header {
+    text-align: center;
+}
+
+.contact__header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact__header p {
+    font-size: 16px;
+    color: #666;
+    padding: 10px;
+}
+
+.contact__details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact__left {
+    width: 45%;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact__item .icon {
+    margin-right: 10px;
+    color: #666;
+    font-size: 24px;
+}
+
+.contact__right {
+    width: 45%;
+    margin-left: 200px;
+}
+
+.form__group {
+    margin-bottom: 15px;
+}
+
+.form__group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form__group input,
+.form__group select,
+.form__group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form__group select {
+    appearance: none;
+    padding: 10px 25px 10px 10px;
+    background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png") no-repeat right #fff;
+    background-size: 20px;
+}
+
+.form__group textarea {
+    height: 100px;
+}
+
+button {
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid #000000;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+/* Adding margin between elements */
+.form__group label,
+.form__group input,
+.form__group select,
+.form__group textarea,
+button {
+    margin-bottom: 10px;
+}
