@@ -52,7 +52,7 @@
 }
 
 .gallery__categories button.active {
-  background-color: #007bff;
+  background-color: #000000;
   color: white; 
   border-radius: 5px;
 }

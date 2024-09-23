@@ -73,6 +73,9 @@
   .team-member img {
     max-width: 100%;
     border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
   }
   
   .team-member h4 {

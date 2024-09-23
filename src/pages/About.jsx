@@ -2,6 +2,11 @@ import React from 'react';
 import '../css/About.css';
 import Navbar from '../components/Header/Navbar';
 import Footer from '../components/Footer/Footer';
+import devank from "../assets/white.png"
+import Arpit from "../assets/arpit.jpg"
+import Sujal from "../assets/sujal.jpg"
+import Aditi from "../assets/aditi.jpg"
+import Ayush from "../assets/ayush.jpg"
 
 const About = () => {
   return (
@@ -52,28 +57,28 @@ const About = () => {
         <hr />
         <div className="about__team-members">
           <div className="team-member">
-            <img src="https://via.placeholder.com/150" alt="Team Member 1" />
-            <h4>Atif Aslam</h4>
+            <img src={devank} alt="Team Member 1" />
+            <h4>Devank Maheshwari</h4>
             <p>Wedding Planner</p>
           </div>
           <div className="team-member">
-            <img src="https://via.placeholder.com/150" alt="Team Member 2" />
-            <h4>Arjit Singh</h4>
+            <img src={Arpit} alt="Team Member 2" />
+            <h4>Arpit Mehandiratta</h4>
             <p>Event Coordinator</p>
           </div>
           <div className="team-member">
-            <img src="https://via.placeholder.com/150" alt="Team Member 3" />
-            <h4>Tonny Kakkar</h4>
+            <img src={Sujal} alt="Team Member 3" />
+            <h4>Sujal Gupta</h4>
             <p>Design Specialist</p>
           </div>
           <div className="team-member">
-            <img src="https://via.placeholder.com/150" alt="Team Member 4" />
-            <h4>Dhinchak Pooja</h4>
+            <img src={Aditi} alt="Team Member 4" />
+            <h4>Aditi Rai</h4>
             <p>Logistics Manager</p>
           </div>
           <div className="team-member">
-            <img src="https://via.placeholder.com/150" alt="Team Member 5" />
-            <h4>Salman Boi</h4>
+            <img src={Ayush} alt="Team Member 5" />
+            <h4>Ayush Verma</h4>
             <p>Marketing Director</p>
           </div>
         </div>

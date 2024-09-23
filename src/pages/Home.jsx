@@ -14,7 +14,7 @@ import Testimonials from "../components/Testimonials/Testimonials.jsx";
 import Faq from "../components/Faq/Faq.jsx";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { FaArrowCircleDown } from "react-icons/fa";
-import HostedEvents from "../components/HostedEvents/HostEvents.jsx";
+
 import ServiceCard from "../components/Service Cards/ServiceCard.jsx";
 
 const HomePage = () => {
@@ -65,7 +65,7 @@ const HomePage = () => {
       <ServiceCard/>
       <Subpart1 />
       <Subpart2 />
-      <HostedEvents/>
+
       <Testimonials />
       <Faq />
       <Footer />

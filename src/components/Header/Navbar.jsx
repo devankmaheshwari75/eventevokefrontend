@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
                 <div className="right1">
                     <ul className='rightbar'>
-                        <li><Link to="/login" className="nav-button" onClick={closeMenu}>LOG IN</Link></li>
+                        
                         <li><Link to="/contact" className="nav-button" onClick={closeMenu}>GET STARTED</Link></li>
                     </ul>
                 </div>
